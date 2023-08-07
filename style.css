@@ -1,0 +1,35 @@
+.take_snapshot:hover
+{
+    background-color: rgb(255, 79, 252);
+}
+
+#click
+{
+    background-color: rgb(216, 183, 255);
+    margin-bottom: 30px;
+}
+
+
+
+h2
+{
+border-radius:20px;
+background-color: rgb(216, 183, 255);
+
+}
+
+
+
+canvas{
+    margin-top: 10px;
+animation-name: color;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes color {
+    from{box-shadow: 1px 1px 50px  rgb(214, 185, 255)}
+    to{box-shadow: 1px 1px 50px  rgb(255, 234, 178)}
+}
